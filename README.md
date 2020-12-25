@@ -1,8 +1,10 @@
-# word_segmenter
-## Chú ý: 
-### Bộ mã này được viết lại từ bộ RDRSegmenter: https://github.com/datquocnguyen/RDRsegmenter bằng Python với mục đích thuận tiện hơn cho việc sử dụng và tùy biến các công cụ NLP tiếng Việt
-The implementation of RDRsegmenter, as described in [our paper](http://www.lrec-conf.org/proceedings/lrec2018/summaries/55.html):
-
+# CS321 Ngôn ngữ học ngữ liệu
+* GVHD: Nguyễn Thị Quý
+* Nhóm thực hiện:
+1. Dương Lê Tường Khang 18520882
+2. Bùi Đào Gia Huy 18520818
+3. Lã Trường Hải 18520698
+### Bộ mã này được viết lại từ bộ RDRSegmenter: https://github.com/datquocnguyen/RDRsegmenter
 	@InProceedings{NguyenNVDJ2018,
 	author={Dat Quoc Nguyen and Dai Quoc Nguyen and Thanh Vu and Mark Dras and Mark Johnson},
 	title={{A Fast and Accurate Vietnamese Word Segmenter}},
@@ -10,8 +12,9 @@ The implementation of RDRsegmenter, as described in [our paper](http://www.lrec-
 	pages={2582--2587},
 	year={2018}
 	}
-
 **Please CITE** our paper whenever RDRsegmenter is used to produce published results or incorporated into other software. 
+Các bước thực hiện
 
-Translator: Vinh Pham
-
+### Bước 1: Train với tập dữ liệu mới
+Bỏ dữ liệu vào folder train
+// python DataPreprocessor.py file_train.txt
