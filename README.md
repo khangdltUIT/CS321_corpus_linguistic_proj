@@ -15,6 +15,15 @@
 **Please CITE** our paper whenever RDRsegmenter is used to produce published results or incorporated into other software. 
 Các bước thực hiện
 
-### Bước 1: Train với tập dữ liệu mới
-Bỏ dữ liệu vào folder train
-// python DataPreprocessor.py file_train.txt
+### Bước 1: Tiền xử lý với tập dữ liệu mới
+Bỏ dữ liệu vào folder train  
+	// python DataPreprocessor.py file_train.txt  
+Sau khi hoàn tất, có 2 file BI và BI.Raw.Init trong folder train
+### Bước 2: Train  
+	// cd train
+	// python RDRsegmenter.py file_train.BI file_train.BI.Raw.Init
+Sau khi hoàn tất, có file .RDR trong folder train.
+### Bước 3: Thực hiện predict với file.RDR
+	// cd ..
+	// python RDRsegmenter.py "ngôn ngữ học ngữ liệu"
+Kết quả trả về là câu sau khi tách từ và thời gian thực thi
