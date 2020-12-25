@@ -18,7 +18,6 @@ class DataPreprocessor:
 
         size = len(wordtags)
         for i in range(0, size):
-            print(wordtags[i].form)
             if wordtags[i].tag == "B":
                 #sb.append(wordtags.get(i).form + "/B ");
                 sb.append(wordtags[i].form + "/B ")
