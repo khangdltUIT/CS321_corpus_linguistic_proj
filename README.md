@@ -4,7 +4,7 @@
 1. Dương Lê Tường Khang 18520882
 2. Bùi Đào Gia Huy 18520818
 3. Lã Trường Hải 18520698
-### Bộ mã này được viết lại từ bộ RDRSegmenter: https://github.com/datquocnguyen/RDRsegmenter
+### Bộ mã này được viết lại từ bộ RDRSegmenter: https://github.com/datquocnguyen/RDRsegmenter theo paper: a fast and accurate vietnamese word segmenter
 	@InProceedings{NguyenNVDJ2018,
 	author={Dat Quoc Nguyen and Dai Quoc Nguyen and Thanh Vu and Mark Dras and Mark Johnson},
 	title={{A Fast and Accurate Vietnamese Word Segmenter}},
