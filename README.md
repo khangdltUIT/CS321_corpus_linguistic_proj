@@ -16,8 +16,10 @@
 Các bước thực hiện
 
 ### Bước 1: Tiền xử lý với tập dữ liệu mới
-Bỏ dữ liệu vào folder train  
+Bỏ dữ liệu vào folder train
+
 	// python DataPreprocessor.py file_train.txt  
+
 Sau khi hoàn tất, có 2 file BI và BI.Raw.Init trong folder train
 ### Bước 2: Train  
 	// cd train
