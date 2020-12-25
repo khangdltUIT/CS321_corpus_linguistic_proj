@@ -198,5 +198,5 @@ if __name__ == "__main__":
     tokenizer = Tokenizer()
     t=time.time()
     output = rdrsegment.segmentRawSentences(tokenizer,sys.argv[1])
-    print(sys.argv[1])
+    #print(sys.argv[1])
     print(output,time.time()-t)
