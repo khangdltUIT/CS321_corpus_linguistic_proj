@@ -58,5 +58,5 @@ class DataPreprocessor:
 
 if __name__ == '__main__':
     segmenter = DataPreprocessor();
-    segmenter.getCorpusInitialSegmentation(r'D:\src\rdr\train\Train_gold.txt');
+    segmenter.getCorpusInitialSegmentation(sys.argv[1]);
     print('Done')
