@@ -23,7 +23,7 @@ Bỏ dữ liệu vào folder train
 Sau khi hoàn tất, có 2 file BI và BI.Raw.Init trong folder train
 ### Bước 2: Train  
 	cd train
-	python RDRsegmenter.py file_train.BI file_train.BI.Raw.Init
+	python RDRsegmenter.py train file_train.BI file_train.BI.Raw.Init
 Sau khi hoàn tất, có file .RDR trong folder train.
 ### Bước 3: Thực hiện predict với file.RDR
 Đem file .RDR bỏ vào
