@@ -42,7 +42,4 @@ def run(args = sys.argv[1:]):
     else:
         printHelp()
 if __name__ == "__main__":
-    #print(sys.argv)
-    rdrTree = SCRDRTreeLearner(THRESHOLD[0], THRESHOLD[1])
-    rdrTree.learnRDRTree(r'D:\src\rdr\train\Train_gold.txt.BI', r'D:\src\rdr\train\Train_gold.txt.RAW.Init' )
-    #run()
+    run()
