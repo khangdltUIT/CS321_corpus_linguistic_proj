@@ -26,6 +26,9 @@ Sau khi hoàn tất, có 2 file BI và BI.Raw.Init trong folder train
 	python RDRsegmenter.py file_train.BI file_train.BI.Raw.Init
 Sau khi hoàn tất, có file .RDR trong folder train.
 ### Bước 3: Thực hiện predict với file.RDR
+Đem file .RDR bỏ vào
+![alt](https://github.com/khangdltUIT/khangdltUIT.github.io/blob/master/images/vitricuamodel.png)
+
 	cd ..
 	python RDRsegmenter.py "ngôn ngữ học ngữ liệu"
 Kết quả trả về là câu sau khi tách từ và thời gian thực thi
